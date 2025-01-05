@@ -58,7 +58,9 @@ const Projects = () => {
                             <h2 className="card-title">{project.name}</h2>
                             <div className="flex justify-between">
                                 <div className="card-actions">
-                                    <button className="btn btn-primary">Live View</button>
+                                    <button className="btn btn-primary">
+                                        <a href={project.liveLink} target='_blank'>Live View</a>
+                                    </button>
                                 </div>
                                 <div className="card-actions">
                                     <Link to={`project/${project.id}`} className="btn btn-primary">Project Details</Link>

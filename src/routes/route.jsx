@@ -37,7 +37,7 @@ export const router = createBrowserRouter([
                 element: <Education></Education>
             },
             {
-                path: 'projects/project/:id',
+                path: '/project/:id',
                 element: <ProjectDetails></ProjectDetails>
             },
             {
