@@ -3,7 +3,7 @@ import bannerImg from '../assets/MyImage/bannerImg.jpg'
 import SocialLinks from './SocialLinks';
 const Banner = () => {
     return (
-        <div className="hero bg-base-200 min-h-screen">
+        <div className="hero bg-base-200 min-h-screen mb-16">
             <div className="hero-content flex-col md:flex-row-reverse">
                 <img
                     src={bannerImg}

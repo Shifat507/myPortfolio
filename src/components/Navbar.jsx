@@ -5,6 +5,7 @@ import { RiGraduationCapLine, RiHome3Fill } from 'react-icons/ri';
 import { GoProjectSymlink } from 'react-icons/go';
 import { FaCogs } from 'react-icons/fa';
 import { LuUserSearch } from 'react-icons/lu';
+import { MdContactPage } from 'react-icons/md';
 const Navbar = () => {
     const links = <>
         <li className='mx-2'><NavLink to='/' className='flex items-center gap-2'><RiHome3Fill /> Home</NavLink></li>
@@ -12,10 +13,11 @@ const Navbar = () => {
         <li className='mx-2'><NavLink to='/skills' className='flex items-center gap-2'><FaCogs /> Skills</NavLink></li>
         <li className='mx-2'><NavLink to='/projects' className='flex items-center gap-2'><GoProjectSymlink /> Projects</NavLink></li>
         <li className='mx-2'><NavLink to='/education' className='flex items-center gap-2'><RiGraduationCapLine /> Education</NavLink></li>
+        <li className='mx-2'><NavLink to='/contactInfo' className='flex items-center gap-2'><MdContactPage /> Contact</NavLink></li>
         
     </>
     return (
-        <div className="navbar bg-base-100 fixed z-10 w-11/12 mx-auto">
+        <div className="navbar bg-base-100 fixed mb-32 z-10 w-11/12 mx-auto">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

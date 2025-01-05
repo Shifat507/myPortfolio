@@ -3,41 +3,50 @@ import { FaEnvelope, FaPhoneAlt, FaWhatsapp } from 'react-icons/fa';
 
 const ContactInfo = () => {
     return (
-        <div className="bg-gradient-to-r from-teal-400 to-blue-500 p-10 rounded-xl shadow-2xl max-w-3xl mx-auto my-16">
-            <h2 className="text-4xl font-extrabold text-white text-center mb-8">Contact Information</h2>
+        <div className="bg-gradient-to-r from-teal-400 to-blue-500 p-10 rounded-xl shadow-2xl max-w-3xl mx-auto ">
+            <h2 className="text-4xl font-extrabold text-white text-center mb-8 mt-12 md:mt-24 ">Contact Information</h2>
             <div className="space-y-6">
                 {/* Email */}
-                <div className="flex justify-center items-center gap-4">
+                <div className="flex flex-col items-center gap-2">
+                    <div className="flex items-center gap-2">
+                        <FaEnvelope className="text-2xl text-white" />
+                        <span className="text-lg font-semibold text-white">Email:</span>
+                    </div>
                     <a
                         href="mailto:ferdoushasanshifat@gmail.com"
-                        className="flex items-center gap-4 bg-white text-teal-600 rounded-lg px-6 py-3 hover:bg-teal-600 hover:text-white transition-all duration-300 shadow-lg w-full sm:w-auto"
+                        className="text-center text-sm md:text-lg bg-white text-teal-600 rounded-lg px-4 py-2 hover:bg-teal-600 hover:text-white transition-all duration-300 shadow-lg"
                     >
-                        <FaEnvelope className="text-2xl" /> 
-                        <span className="text-lg font-semibold">ferdoushasanshifat@gmail.com</span>
+                        ferdoushasanshifat@gmail.com
                     </a>
                 </div>
-                
+
                 {/* Phone */}
-                <div className="flex justify-center items-center gap-4">
+                <div className="flex flex-col items-center gap-2">
+                    <div className="flex items-center gap-2">
+                        <FaPhoneAlt className="text-2xl text-white" />
+                        <span className="text-lg font-semibold text-white">Phone:</span>
+                    </div>
                     <a
                         href="tel:01300378211"
-                        className="flex items-center gap-4 bg-white text-teal-600 rounded-lg px-6 py-3 hover:bg-teal-600 hover:text-white transition-all duration-300 shadow-lg w-full sm:w-auto"
+                        className="text-center text-sm md:text-lg bg-white text-teal-600 rounded-lg px-4 py-2 hover:bg-teal-600 hover:text-white transition-all duration-300 shadow-lg"
                     >
-                        <FaPhoneAlt className="text-2xl" /> 
-                        <span className="text-lg font-semibold">01300378211</span>
+                        01300378211
                     </a>
                 </div>
-                
+
                 {/* WhatsApp */}
-                <div className="flex justify-center items-center gap-4">
+                <div className="flex flex-col items-center gap-2">
+                    <div className="flex items-center gap-2">
+                        <FaWhatsapp className="text-2xl text-white" />
+                        <span className="text-lg font-semibold text-white">WhatsApp:</span>
+                    </div>
                     <a
                         href="https://wa.me/01623236850"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center gap-4 bg-white text-teal-600 rounded-lg px-6 py-3 hover:bg-teal-600 hover:text-white transition-all duration-300 shadow-lg w-full sm:w-auto"
+                        className="text-center text-sm md:text-lg bg-white text-teal-600 rounded-lg px-4 py-2 hover:bg-teal-600 hover:text-white transition-all duration-300 shadow-lg"
                     >
-                        <FaWhatsapp className="text-2xl" /> 
-                        <span className="text-lg font-semibold">WhatsApp: 01623236850</span>
+                        01623236850
                     </a>
                 </div>
             </div>
