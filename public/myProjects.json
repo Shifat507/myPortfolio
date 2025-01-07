@@ -16,7 +16,7 @@
         "image1": "https://i.ibb.co.com/18XQVGB/movie1.jpg",
         "image2": "https://i.ibb.co.com/bQ15BZM/Movie2.jpg",
         "image3": "https://i.ibb.co.com/RhdgKqn/Movie3.jpg",
-        "liveLink": "https://movflicks-3e6db.web.app/allMovies",
+        "liveLink": "https://movflicks-3e6db.web.app/",
         "clientSide": "https://github.com/programming-hero-web-course2/b10-a10-client-side-Shifat507",
         "serverSide": "https://github.com/programming-hero-web-course2/b10-a10-server-side-Shifat507",
         "details": "MovFlicks is a dynamic movie platform that allows users to search and explore movies. \n- Functionality: Search bar, movie details page, dynamic API integration. \n- Tools Used: React.js, TailwindCSS, Axios, Firebase for hosting. \n- API: Integrated The Movie Database (TMDb) API for movie data."
