@@ -16,7 +16,7 @@ const Banner = () => {
                     </p>
                     <SocialLinks></SocialLinks>
                     <button className="btn btn-primary">
-                        <a href='../../public/portfolio.pdf' download >Get Resume</a>
+                        <a href='/portfolio.pdf' download >Get Resume</a>
                     </button>
                 </div>
             </div>

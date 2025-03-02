@@ -48,7 +48,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a href='../../public/portfolio.pdf' download className="btn">Get Resume</a>
+                <a href='/portfolio.pdf' download className="btn">Get Resume</a>
             </div>
         </div>
     );
